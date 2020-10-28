@@ -1,0 +1,11 @@
+framework module xmpp_rock {
+  umbrella header "xmpp_rock-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module xmpp_rock.Swift {
+    header "xmpp_rock-Swift.h"
+    requires objc
+}
